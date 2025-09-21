@@ -32,7 +32,7 @@ func TestStrongPassword(t *testing.T) {
 	}{
 		{"A12345", false},
 		{"Aaaa321", false},
-		{"A@123!BC", true},
+		{"A@123!BCa", true},
 		{"ABC123", false},
 		{"lolkek123!A", true},
 		{"", false},
